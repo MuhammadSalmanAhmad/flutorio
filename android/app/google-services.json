@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893425863594",
+    "project_id": "visio-f9f00",
+    "storage_bucket": "visio-f9f00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893425863594:android:b040632ada1fd67f88b9d3",
+        "android_client_info": {
+          "package_name": "com.example.flutorio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893425863594-av2ef5vmt7e9s141f1miqf5dekg1dbuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFfnlcc_CixdX9xjJlBT2q4VLSR7-c1_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893425863594-av2ef5vmt7e9s141f1miqf5dekg1dbuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
