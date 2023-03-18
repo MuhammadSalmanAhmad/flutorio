@@ -21,15 +21,26 @@ class _Onboarding_ScreenState extends State<Onboarding_Screen> {
         body: Stack(children: [
       PageView(
         controller: _controller,
-        children: [
-          PageOne(),
-       
-          
-        ],
+        children: [PageOne(), PageTwo()],
       ),
       Container(
           alignment: Alignment(0, 0.9),
-          child: SmoothPageIndicator(controller: _controller, count: 3))
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              GestureDetector(
+                child: Text("Skip"),
+                onTap: () {},
+              ),
+              SmoothPageIndicator(controller: _controller, count: 2),
+              GestureDetector(
+                child: Text("Next"),
+                onTap: () {
+                  _controller.jumpToPage(2);
+                },
+              )
+            ],
+          ))
     ]));
   }
 }

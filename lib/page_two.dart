@@ -18,7 +18,7 @@ class PageTwo extends StatelessWidget {
               height: 400,
               child: Center(
                   child: Image(
-                image: AssetImage('assets/jobsearch.jpg'),
+                image: AssetImage('assets/image_two.png'),
                 fit: BoxFit.cover,
               )),
             ),
@@ -31,14 +31,15 @@ class PageTwo extends StatelessWidget {
             child: Column(
               children: const [
                  Text(
-                  "Find your dream job",
+                  "Get your dream job",
                   style: TextStyle(
                       color: Colors.blueGrey,
                       fontSize: 30,
                       fontWeight: FontWeight.bold),
                 ),
+                SizedBox(height: 30,),
                 Text(
-                  "Search and find your dream job easily and quickly",
+                  "Get your dream job and start working in a new company",
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 20,

@@ -9,9 +9,9 @@ class PageOne extends StatelessWidget {
     return Container(
       color: Colors.white,
       child: Column(
-        children: const [
+        children:  [
           SizedBox(
-            height: 150,
+            height: 100,
           ),
           Center(
             child: SizedBox(
@@ -29,12 +29,24 @@ class PageOne extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 18),
-            child: Text(
-              "Search and find your dream job easily and quickly",
-              style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold),
+            child: Column(
+              children: [
+                 Text(
+                  "Find your dream job",
+                  style: TextStyle(
+                      color: Colors.blueGrey,
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 30,),
+                Text(
+                  "Search and find your dream job easily and quickly",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold),
+                ),
+              ],
             ),
           ),
         ],
