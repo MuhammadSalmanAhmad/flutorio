@@ -5,7 +5,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:flutorio/page_one.dart';
 import 'package:flutorio/page_two.dart';
-import 'package:flutorio/post_jobs.dart';
+import 'package:flutorio/applyjob.dart';
 
 class Onboarding_Screen extends StatefulWidget {
   const Onboarding_Screen({super.key});
@@ -32,7 +32,7 @@ class _Onboarding_ScreenState extends State<Onboarding_Screen> {
               GestureDetector(
                 child: Text("Skip"),
                 onTap: () {
-                  Navigator.push(context,  MaterialPageRoute(builder: (context) => const PostJob()),);
+                  Navigator.push(context,  MaterialPageRoute(builder: (context) => const ApplyJOb()),);
                 },
               ),
               SmoothPageIndicator(controller: _controller, count: 2),
